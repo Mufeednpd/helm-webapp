@@ -15,6 +15,11 @@ helm create webapp1
 
 # Install the first one
 ```
+helm install mywebapp-release webapp1/
+```
+
+# Install with values
+```
 helm install mywebapp-release webapp1/ --values webapp1/values.yaml
 ```
 
