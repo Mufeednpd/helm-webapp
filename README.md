@@ -1,4 +1,13 @@
 
+
+
+
+Install helm in local/agent
+
+```
+choco install kubernetes-helm
+```
+
 # Create the helmchart
 ```
 helm create webapp1
